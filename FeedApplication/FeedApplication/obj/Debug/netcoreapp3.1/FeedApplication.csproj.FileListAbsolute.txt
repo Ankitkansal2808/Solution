@@ -15,3 +15,5 @@ D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netc
 D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.csproj.CopyComplete
 D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
