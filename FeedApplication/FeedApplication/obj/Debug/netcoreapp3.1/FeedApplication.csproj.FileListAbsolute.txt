@@ -1,0 +1,17 @@
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.csproj.AssemblyReference.cache
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.AssemblyInfoInputs.cache
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.AssemblyInfo.cs
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.csproj.CoreCompileInputs.cache
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.exe
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.deps.json
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.runtimeconfig.json
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.runtimeconfig.dev.json
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.dll
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\FeedApplication.pdb
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.dll
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.pdb
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.genruntimeconfig.cache
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\obj\Debug\netcoreapp3.1\FeedApplication.csproj.CopyComplete
+D:\SolutionForAssignment\Solution\FeedApplication\FeedApplication\bin\Debug\netcoreapp3.1\YamlDotNet.dll
