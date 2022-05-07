@@ -1,0 +1,60 @@
+1. Select users whose id is either 3,2 or 4
+SELECT * FROM usersschema.users as usr 
+WHERE usr.id IN (2,3,4);
+
+2. Count how many basic and premium listings each active user has
+- Please return at least: first_name, last_name, basic, premium
+SELECT us.first_name, us.last_name, min(cl.price) as basic,max(cl.price) as premium FROM usersschema.users us
+inner join
+usersschema.listings li
+on us.id = li.user_id
+inner join usersschema.clicks cl
+on li.id = cl.listing_id
+WHERE us.status = 1
+group by us.first_name, us.last_name;
+
+3. Show the same count as before but only if they have at least ONE premium listing
+- Please return at least: first_name, last_name, basic, premium
+
+
+4. How much revenue has each active vendor made in 2013
+- Please return at least: first_name, last_name, currency, revenue
+SELECT us.first_name, us.last_name,currency, sum(cl.price) as revenue FROM usersschema.users us
+inner join
+usersschema.listings li
+on us.id = li.user_id
+inner join usersschema.clicks cl
+on li.id = cl.listing_id
+WHERE us.status = 1 and DATE(cl.created) >= '2013-01-01 00:00:00'
+and DATE(cl.created) < '2014-01-01 00:00:00'
+group by us.first_name, us.last_name, cl.currency ;
+
+5. Insert a new click for listing id 3, at $4.00
+- Find out the id of this new click. Please return at least: id
+  INSERT INTO usersschema.clicks (listing_id, price, currency, created) 
+VALUES (3, 4.00,'USD',CURDATE());
+SELECT LAST_INSERT_ID();
+
+6. Show listings that have not received a click in 2013
+- Please return at least: listing_name
+SELECT li.name as listing_name FROM 
+usersschema.listings li
+inner join usersschema.clicks cl
+on li.id = cl.listing_id
+WHERE  DATE(cl.created) < '2013-01-01 00:00:00'
+OR DATE(cl.created) > '2014-01-01 00:00:00'
+GROUP BY listing_name;
+
+
+7. For each year show number of listings clicked and number of vendors who owned these listings
+- Please return at least: date, total_listings_clicked, total_vendors_affected
+
+8. Return a comma separated string of listing names for all active vendors
+- Please return at least: first_name, last_name, listing_names
+SELECT us.first_name, us.last_name,
+GROUP_CONCAT(li.name) as "listing_names"
+FROM usersschema.users us
+INNER JOIN 
+usersschema.listings li 
+on us.id=li.user_id  GROUP BY us.id;
+
